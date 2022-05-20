@@ -1,7 +1,7 @@
 import 'dart:developer';
 
 
-import 'app/core/repositories/product_repository.dart';
+import 'app/repositories/product_repository.dart';
 
 void main() async {
   final _pro = ProductRepository();

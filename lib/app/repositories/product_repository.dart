@@ -1,6 +1,6 @@
 import 'package:mysql1/mysql1.dart';
 import 'package:selects_api/app/core/database/database.dart';
-import 'package:selects_api/app/core/entities/product.dart';
+import 'package:selects_api/app/entities/product.dart';
 
 class ProductRepository {
   Future<List<Product>> findALL() async {

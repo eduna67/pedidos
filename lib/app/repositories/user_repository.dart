@@ -2,8 +2,8 @@ import 'package:mysql1/mysql1.dart';
 import 'package:selects_api/app/core/Exceptions/email_exist.dart';
 import 'package:selects_api/app/core/Exceptions/user_not_found.dart';
 import 'package:selects_api/app/core/database/database.dart';
-import 'package:selects_api/app/core/entities/user.dart';
-import 'package:selects_api/app/util/cripty.dart';
+import 'package:selects_api/app/entities/user.dart';
+import 'package:selects_api/app/core/util/cripty.dart';
 
 class UserRepository {
   Future<void> save(User user) async {

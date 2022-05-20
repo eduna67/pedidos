@@ -2,8 +2,8 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:selects_api/app/core/Exceptions/email_exist.dart';
 import 'package:selects_api/app/core/Exceptions/user_not_found.dart';
-import 'package:selects_api/app/core/entities/user.dart';
-import 'package:selects_api/app/core/repositories/user_repository.dart';
+import 'package:selects_api/app/entities/user.dart';
+import 'package:selects_api/app/repositories/user_repository.dart';
 import 'package:shelf/shelf.dart';
 import 'package:shelf_router/shelf_router.dart';
 

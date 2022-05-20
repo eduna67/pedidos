@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:selects_api/app/core/modules/auth/auth_controller.dart';
-import 'package:selects_api/app/core/modules/product/product_controller.dart';
+import 'package:selects_api/app/modules/auth/auth_controller.dart';
+import 'package:selects_api/app/modules/product/product_controller.dart';
 import 'package:shelf/shelf.dart';
 import 'package:shelf/shelf_io.dart' as shelf_io;
 import 'package:shelf_router/shelf_router.dart';

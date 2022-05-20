@@ -3,22 +3,18 @@ import 'dart:convert';
 class OrderItem {
   final int id;
   final String quantidade;
-  final int pedido_id;
-  final int produto_id;
-
+  final int produtoId;
   OrderItem({
     required this.id,
     required this.quantidade,
-    required this.pedido_id,
-    required this.produto_id,
+    required this.produtoId,
   });
-  
+
   Map<String, dynamic> toMap() {
     return {
       'id': id,
       'quantidade': quantidade,
-      'pedido_id': pedido_id,
-      'produto_id': produto_id,
+      'produtoId': produtoId,
     };
   }
 
@@ -26,8 +22,7 @@ class OrderItem {
     return OrderItem(
       id: map['id']?.toInt() ?? 0,
       quantidade: map['quantidade'] ?? '',
-      pedido_id: map['pedido_id']?.toInt() ?? 0,
-      produto_id: map['produto_id']?.toInt() ?? 0,
+      produtoId: map['produtoId']?.toInt() ?? 0,
     );
   }
 
